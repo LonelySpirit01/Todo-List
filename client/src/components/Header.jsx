@@ -1,7 +1,7 @@
 const Header = () => {
   const makePayment = async () => {
     let response = await axios.post(
-      "https://to-do-mgt4.onrender.com/todos/checkout"
+      "https://todo-list-1-backend.onrender.com/todos/checkout"
     );
     if (response && response.status === 200) {
       window.location.href = response.data.url;
