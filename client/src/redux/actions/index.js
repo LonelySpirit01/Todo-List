@@ -9,11 +9,8 @@ import {
   TOGGLE_TAB,
 } from "./type";
 
-<<<<<<< HEAD
 const API_URL = "https://todo-list-1-backend.onrender.com";
-=======
-const API_URL = 'https://todo-list-1-backend.onrender.com';
->>>>>>> 1c11206e8ebf2e7c4cefce9c825d5578368fd793
+
 
 export const addNewTodo = (data) => async (dispatch) => {
   try {
